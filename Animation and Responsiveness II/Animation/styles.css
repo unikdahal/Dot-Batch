@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    background-color: yellow;
+    height: 215px;
+    border: 1px solid red;
+
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+    
+    
+    animation: unik;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes unik{
+    0%{
+        width: 212px;
+    }
+
+    30%{
+        width: 35%;
+        background-color: aquamarine;
+    }
+
+    65%{
+        width: 70%;
+        background-color: blue;
+    }
+
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
+
+
+
+/* @keyframes unik{
+
+    from{
+        width: 212px;
+        height: 212px;
+    }
+
+    to{
+        width: 800px;
+        height: 512px;
+    }
+
+
+
+
+
+} */

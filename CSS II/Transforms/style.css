@@ -1,0 +1,21 @@
+/* .box{
+    background-color: aqua;
+    transform: translate(100px,100px) scale(1,2.5);
+    
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+.translated{
+    transform: perspective(10px) translateZ(-10px);
+}
+
+.scaled{
+    transform: perspective(100px) scaleZ(6) rotateX(15deg);
+}
